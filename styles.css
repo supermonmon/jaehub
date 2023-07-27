@@ -73,7 +73,11 @@ body{
     background-color: #000000;
     color: white;
     border: 14px solid #ffffff;
-    height: 600px;
+    border-top: none;
+}
+.fourth{
+    background-color: #f6f6f6;
+    border: 14px solid #ffffff;
     border-top: none;
 }
 @media only screen and (max-width: 1024px) {
@@ -90,5 +94,25 @@ body{
     .second-right{
         border-right: none;
     }
+    .top-wrap{
+        flex-direction: column;
+    }
+    .bottom-wrap{
+        flex-direction: column;
+    }
   }
- 
+  .video-wrap{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+  .video-wrap iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .test-new-wrap{
+    width: 1000px;
+  }
