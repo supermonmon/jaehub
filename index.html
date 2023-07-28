@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAE Hub Web Services</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
@@ -14,9 +15,9 @@
             <a href="#" class="navbar-brand">
                 <img class="img-fluid" src="./Assets/jaehub-logo.png">
             </a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" 
+            <button class="navbar-toggler border-0" data-bs-toggle="collapse" 
             data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span><i class="fa-solid fa-bars fa-xs"></i></span>
             </button>
             <div class="collapse navbar-collapse flex-grow-0" id="nav">
                 <ul class="navbar-nav text-center mx-5">
@@ -49,50 +50,37 @@
             <span id="hero-text">Your One-Stop <span id="hero-text-emphasize"></span></span>
             <p id="hero-subtext">Composed of Young Professionals Building Tomorrow's Tech<p>
         </div>
-    <!--<div class="container hero-video mt-0 mt-sm-2">
-        <iframe width="600" height="400" src="https://www.youtube.com/embed/4oc1G289y9M">
-        </iframe>
-
-        <div class="first container col-12 p-5 m-2">
-        <div class="row">
-          <div class="col-12">
-            <h2>Discover Our Effortless 1-2-3 Process</h2>
-          </div>
-          <div class="col-12">
-            Column
-          </div>
-          <div class="col-12">
-            Column
-          </div>
-        </div>
-      </div>
-    
-    </div> -->
         <div class="container hero-button mt-0 mt-sm-3">
             <button id="hero-button" type="button" class="btn btn-light btn-lg px-5">EXPLORE OUR PLANS</button>
         </div>
     </div>
 
     <!-- First Section  -->
-    <div class="first container-fluid p-5 overflow-hidden d-flex justify-content-center  ">
-        <div class="row d-flex justify-content-center text-center">
-            <div class="col-12">
-                <h2 class="mb-4">Explore our streamlined process</h2>
-            </div>
-            <div class="col-lg-4 col-md-12 mb-4 w-auto">
-                <img src="/Assets/process-1.png">
-            </div>
-        
-            <div class="col-lg-4 col-md-6 mb-4 w-auto">
-                <img src="/Assets/process-2.png">
-            </div>
-        
-            <div class="col-lg-4 col-md-6 mb-4 w-auto">
-                <img src="/Assets/process-3.png">
-            </div>
+    <div class="first container-fluid p-5 overflow-hidden d-flex justify-content-center text-center align-items-center">
+        <div class="wrap d-flex">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12">
+                    <h2 class="d-flex text-center justify-content-center">Explore Our Streamlined Process</h2>
+                    <p class="section-subtext mb-4 ">Unlock success through our simplified process.</p>
+                </div>
+                <div class="w-auto col-md-12 col-sm-12 mb-4">
+                    <div class="card first-card border-0">
+                        <img src="/Assets/Section 1/process-1.png" class="card-img-top" alt="...">
+                    </div>                      
+                </div>
+                <div class="w-auto col-lg-4 col-md-12 col-sm-12 mb-4">
+                    <div class="card first-card border-0">
+                        <img src="/Assets/Section 1/process-2.png" class="card-img-top" alt="...">
+                    </div>                      
+                </div>
+                <div class="w-auto col-lg-4 col-md-12 col-sm-12 mb-4">
+                    <div class="card first-card border-0">
+                        <img src="/Assets/Section 1/process-3.png" class="card-img-top" alt="...">
+                    </div>                      
+                </div>
+           </div>
         </div>
-    </div>
-
+    </div>            
     <!-- Second Section  -->
     <div class="wrapper d-flex justify-content-center">
         <div class="second-left container-fluid">
@@ -111,7 +99,8 @@
         <div class=" d-flex justify-content-center text-center">
             <div class="row d-flex justify-content-center text-center">
                 <div class="col-12">
-                    <h2 class="mb-4">Experience Our Process in Action<br> Discover, Decide, Deliver.</h2>
+                    <h2>Experience Our Process in Action<br> Discover, Decide, Deliver.</h2>
+                    <p class="section-subtext mb-4 ">Unlocking Opportunities, One Step at a Time.</p>
                 </div>
                 <div class="video-wrap col-12 mb-4">
                     <iframe width="600" height="400" src="https://www.youtube.com/embed/4oc1G289y9M">
@@ -123,74 +112,209 @@
 
     <!-- Fourth Section  -->
     <div class="fourth container-fluid p-5 overflow-hidden d-flex justify-content-center text-center align-items-center">
-        <div class="test-new-wrap d-flex">
+        <div class="wrap d-flex">
             <div class="row text-center">
                 <div class="col-12">
-                    <h2 class="mb-4">Explore our streamlined process</h2>
+                    <h2>Discover Our Array of Services</h2>
+                    <p class="section-subtext mb-4 ">Empowering Your Digital Presence with Tailored Solutions.</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                    <div class="card">
-                        <img src="/Assets/testing7.png" class="card-img-top" alt="...">
+                    <div class="fourth-card card border-0">
+                        <img src="/Assets/Section 4/img-1.svg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="card-title">Web Design & Development</h5>
+                          <p class="card-text">Our expert team crafts visually stunning and functional websites tailored to your unique needs. From concept to execution, we ensure an engaging user experience and seamless navigation.</p>
                         </div>
                     </div>                      
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <div class="card">
-                        <img src="/Assets/testing7.png" class="card-img-top" alt="...">
+                    <div class="fourth-card card border-0">
+                        <img src="/Assets/Section 4/img-2.svg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="card-title">E-commerce</h5>
+                          <p class="card-text">Tap into the vast potential of the online market with our comprehensive e-commerce solutions. We optimize your digital storefront, implement marketing strategies, and drive traffic to boost conversions.</p>
                         </div>
                     </div>       
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <div class="card">
-                        <img src="/Assets/testing7.png" class="card-img-top" alt="...">
+                    <div class="fourth-card card border-0">
+                        <img src="/Assets/Section 4/img-3.svg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="card-title">Web Hosting</h5>
+                          <p class="card-text"> Secure your online identity with our reliable domain registration services, paired with fast and secure hosting solutions, ensuring your website is always accessible to your audience.</p>
                         </div>
                     </div>       
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <div class="card">
-                        <img src="/Assets/testing7.png" class="card-img-top" alt="...">
+                    <div class="fourth-card card border-0">
+                        <img src="/Assets/Section 4/img-5.svg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="card-title">Content Marketing</h5>
+                          <p class="card-text">Our content marketing expertise helps you build brand authority and engage your audience through valuable and relevant content, establishing lasting connections with your customers.</p>
+                        </div>
+                    </div>       
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                    <div class="fourth-card card border-0">
+                        <img src="/Assets/Section 4/img-4.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"> Mobile-Friendly and Responsive Design</h5>
+                          <p class="card-text">Embrace a mobile-first approach with our responsive designs, guaranteeing smooth user experiences on various devices, from smartphones to tablets and desktops.</p>
                         </div>
                     </div>                      
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <div class="card">
-                        <img src="/Assets/testing7.png" class="card-img-top" alt="...">
+                    <div class="fourth-card card border-0">
+                        <img src="/Assets/Section 4/img-6.svg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="card-title"> Search Engine Optimization</h5>
+                          <p class="card-text"> Increase your website's visibility and rank higher in search engine results with our strategic SEO techniques, driving organic traffic and boosting your online presence.</p>
                         </div>
                     </div>       
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <div class="card">
-                        <img src="/Assets/testing7.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>       
-                </div>
-        </div>
-    
-            
-
+            </div>      
         </div>
     </div>
 
-   
-    
+    <!-- Fifth Section  -->
+    <div class="fifth container-fluid p-5 overflow-hidden d-flex justify-content-center text-center align-items-center">
+        <div class="wrap-pricing d-flex">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2>Introducing Our Affordable Pricing Plans</h2>
+                    <p class="section-subtext mb-4 ">Unlocking Value with Solutions that Suit Your Budget</p>
+                </div>
+                <div class="fifth-cards col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                    <div class="fifth-card card">
+                        <div class="card-body card-body-pricing">
+                          <p class="card-package mb-4 mt-2">BASIC PACKAGE</p>
+                          <h2 class="card-price mb-4">Php 15,000</h2>
+                          <div class="card-wrapper-text">
+                            <div class="card-text-container mb-2 d-flex">
+                                <i class="fa-regular fa-circle-check me-2 d-flex align-items-center" style="color: #ffa755;"></i>
+                                <p class="card-text"><span style="font-weight: 600; color:black;">Personalized</span> Domain Name</p>
+                            </div>
+                              <div class="card-text-container mb-2 d-flex">
+                                <i class="fa-regular fa-circle-check me-2 d-flex align-items-center" style="color: #ffa755;"></i>
+                                <p class="card-text">Responsive Mobile Design</p>
+                              </div>
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text">How-To Documentation</p>
+                              </div>
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text">Web Hosting Service</p>
+                              </div>
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text"><span style="font-weight: 600; color:black;">Unlimited</span> Minor Revisions</p>
+                              </div>
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text"><span style="font-weight: 600; color:black;">Unlimited</span> Pages</p>
+                              </div>
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text">Add media to your webpage</p>
+                              </div>  
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text">Basic SEO</p>
+                              </div>  
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text">Google Search Submission</p>
+                              </div>  
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text"><span style="font-weight: 600; color:black;">Lightweight</span> Design</p>
+                              </div>  
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text"><span style="font-weight: 600; color:black;">Less</span> CSS optimization</p>
+                              </div>                 
+                          </div>
+                        </div>
+                    </div>       
+                </div>
+                <div class="fifth-cards col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                    <div class="fifth-card card">
+                        <div class="card-body card-body-pricing">
+                          <p class="card-package mb-4 mt-2">PRO PACKAGE</p>
+                          <h2 class="card-price mb-4">Php 30,000</h2>
+                          <div class="card-wrapper-text">
+                            <div class="card-text-container mb-2 d-flex">
+                                <i class="fa-regular fa-circle-check me-2 d-flex align-items-center" style="color: #ffa755;"></i>
+                                <p class="card-text"><span style="font-weight: 600; color:black;">Complete</span> Basic Package</p>
+                            </div>
+                              <div class="card-text-container mb-2 d-flex">
+                                <i class="fa-regular fa-circle-check me-2 d-flex align-items-center" style="color: #ffa755;"></i>
+                                <p class="card-text">E-Commerce</p>
+                              </div>
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text">Simple online product addition</p>
+                              </div>
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text">SSL</p>
+                              </div>
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text">Database</p>
+                              </div>
+                          </div>
+                        </div>
+                    </div>       
+                </div>
+                <div class="fifth-cards col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                    <div class="fifth-card card">
+                        <div class="card-body card-body-pricing">
+                          <p class="card-package mb-4 mt-2">PREMIUM PACKAGE</p>
+                          <h2 class="card-price mb-4">Php 60,000</h2>
+                          <div class="card-wrapper-text">
+                            <div class="card-text-container mb-2 d-flex">
+                                <i class="fa-regular fa-circle-check me-2 d-flex align-items-center" style="color: #ffa755;"></i>
+                                <p class="card-text"><span style="font-weight: 600; color:black;">Complete</span> Basic Package</p>
+                            </div>
+                              <div class="card-text-container mb-2 d-flex">
+                                <i class="fa-regular fa-circle-check me-2 d-flex align-items-center" style="color: #ffa755;"></i>
+                                <p class="card-text"><span style="font-weight: 600; color:black;">Complete</span> Pro Package</p>
+                              </div>
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text">Media Editing</p>
+                              </div>
+                              <div class="card-text-container mb-2 d-flex d-flex align-items-center">
+                                <i class="fa-regular fa-circle-check me-2" style="color: #ffa755;"></i>
+                                <p class="card-text">Video Ads</p>
+                              </div>
+                        </div>
+                    </div>       
+                </div>
+            </div>      
+        </div>
+    </div>              
+</div>
+                <!-- Footer -->
+                <footer class="footer mt-auto py-3">
+                    <div class="container d-flex flex-column">
+                        <h5 class="mb-3">Stay in Touch</h5>
+                        <div class="footer-icons d-flex gap-3 mb-3">
+                            <a href="https://www.facebook.com/jaehub.biz.12" class="footer-icon d-flex align-items-center justify-content-center" style="border-radius: 100%; width: 40px; height: 40px;">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="" class="footer-icon d-flex align-items-center justify-content-center" style="border-radius: 100%; width: 40px; height: 40px;">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href= "" class="footer-icon d-flex align-items-center justify-content-center" style="border-radius: 100%; width: 40px; height: 40px;">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>      
+                        </div>
+                      <span class ="copyright mb-1">© Copyright JAE Hub Web Services. All Rights Reserved</span>
+                    </div>
+                </footer>
       <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
       <script src="index.js"></script>
