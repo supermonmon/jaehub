@@ -20,17 +20,28 @@ body{
 }
 .navbar{
     transition: all 0.5s;
+    font-weight: 700;
 }
 .navbar-scrolled{
-    background-color: rgba(12, 12, 12, 0.98);
+    background-color: rgba(255, 255, 255, 0.95);
 }
 .hero{
-    background: radial-gradient(circle, rgba(32,32,32,1) 0%, rgba(0,0,0,1) 100%);
-    background-image: url(./Assets/testing7.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     color: white;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+.video-bg{
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
 }
 #hero-text-emphasize{
     color: #FFA755;
@@ -38,36 +49,23 @@ body{
 #hero-button{
     border-radius: 20px;
     font-size:calc(8px + 0.6vw);
-    font-weight: 700;
+    font-weight: 400;
+    background-color: black;
+    color: white;
 }
 .hero-text{
     font-size:calc(12px + 0.8vw);
     font-weight: 400;
+    color: black;
+    padding-top: 140px;
 }
 #hero-text{ 
-    font-size:calc(22px + 1.6vw);
+    font-size:calc(18px + 0.8vw);
 }
 .first{
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 100%);
     border: 14px solid #f6f6f6;
     border-bottom: none;
-}
-.wrapper{
-  height: auto;
-}
-.second-left{
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 100%);
-    border: 14px solid #f6f6f6;
-    height: auto;
-    border-right: none;
-    width: 50%;
-}
-.second-right{
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 100%);
-    border: 14px solid #f6f6f6;
-    height: auto;
-    
-    width: 50%;
 }
 .third{
     background: radial-gradient(circle, rgba(32,32,32,1) 0%, rgba(0,0,0,1) 100%);
@@ -86,17 +84,6 @@ body{
     border: 14px solid #f6f6f6;
     border-top: none;
 }
-@media only screen and (max-width: 1024px) {
-    .wrapper{
-        flex-direction: column;
-    }
-    .top-wrap{
-        flex-direction: column;
-    }
-    .bottom-wrap{
-        flex-direction: column;
-    }
-  }
   .video-wrap{
     position: relative;
     overflow: hidden;
@@ -164,6 +151,10 @@ body{
     display: flex;
     flex-direction: column;
   }
+  .custom-img {
+    margin-right: 2px; /* You can adjust this value to control the horizontal gap */
+    margin-left: 0; /* Remove any existing left margin */
+}
  .card-wrapper-text{
     padding: 20px;
  }
